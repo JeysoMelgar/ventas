@@ -7,24 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Ventas.BL;
 
 namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
-        private object listadeCiudadesBindingSource;
-
         public Form1()
         {
             InitializeComponent();
-
-            var clientesBL = new ClientesBL();
-            listadeClientesBindingSource.DataSource = clientesBL.ListadeClientes;
-
-            var ciudadBL = new CiudadBL();
-            listadeCiudadesBindingSource.DataSource = ciudadBL.ListadeCiudades;
-
         }
     }
 }
