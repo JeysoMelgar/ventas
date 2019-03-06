@@ -9,22 +9,28 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ventas.BL;
 
-namespace WindowsFormsApplication1
+namespace Ventas
 {
     public partial class Form1 : Form
     {
-        private object listadeCiudadesBindingSource;
-
         public Form1()
         {
             InitializeComponent();
+
+            var productosBL = new ProductoBL();
+            listadeProductosBindingSource.DataSource = productosBL.ListadeProductos;
+
+            var categoriasBL = new CategoriaBL();
+            listadeCategoriasBindingSource.DataSource = categoriasBL.ListadeCategorias;
 
             var clientesBL = new ClientesBL();
             listadeClientesBindingSource.DataSource = clientesBL.ListadeClientes;
 
             var ciudadBL = new CiudadBL();
             listadeCiudadesBindingSource.DataSource = ciudadBL.ListadeCiudades;
-
+            
         }
+
+
     }
 }

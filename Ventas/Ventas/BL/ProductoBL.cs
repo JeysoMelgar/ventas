@@ -4,30 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Ventas.Modelos;
-
 namespace Ventas.BL
 {
-    public class ProductosBL
+    public class ProductoBL
     {
-        private object categoria1;
-        private object categoria2;
-
-        public List<Producto> ListadeProductos{ get; set; }
-        public object Listadecategorias { get; private set; }
-
-        public ProductosBL()
+        public List<Producto> ListadeProductos { get; set; }
+        public ProductoBL()
         {
             ListadeProductos = new List<Producto>();
+            CrearDatosdePrueba();
         }
-
         private void CrearDatosdePrueba()
         {
             var categoria1 = new Categoria(1, "Laptops");
             var categoria2 = new Categoria(2, "Accesorios");
 
             var producto1 = new Producto(1, "Laptop Dell", 15000, categoria1);
-            var producto2 = new Producto(2, "Laptop Asus", 20000, categoria1);
-            var producto3 = new Producto(3, "Mouse Logitech", 200, categoria2);
+            var producto2 = new Producto(2, "Laptop Asus", 15000, categoria1);
+            var producto3 = new Producto(3, "Mouse Logitech", 15000, categoria2);
 
             ListadeProductos.Add(producto1);
             ListadeProductos.Add(producto2);

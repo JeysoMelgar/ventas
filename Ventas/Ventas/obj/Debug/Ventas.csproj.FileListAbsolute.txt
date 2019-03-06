@@ -1,9 +1,9 @@
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\bin\Debug\Ventas.exe.config
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\bin\Debug\Ventas.exe
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\bin\Debug\Ventas.pdb
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.csprojResolveAssemblyReference.cache
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Properties.Resources.resources
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.csproj.GenerateResource.Cache
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.exe
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.pdb
-C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\WindowsFormsApplication1.Form1.resources
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\bin\Debug\Ventas.exe.config
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.Form1.resources
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\bin\Debug\Ventas.exe
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\bin\Debug\Ventas.pdb
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.exe
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.pdb
+c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.csprojResolveAssemblyReference.cache

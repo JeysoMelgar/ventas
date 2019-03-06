@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 namespace Ventas.Modelos
 {
     public class Producto
-    {   
-            
+    {
         public int Id { get; set; }
         public string Descripcion { get; set; }
-        public int CategoriaId { get; set; }
         public double Precio { get; set; }
-        public Categoria Categoria{ get; set; }
+        public int CategoriaId { get; set; }
+        public Categoria Categoria { get; set; }
 
         public Producto(int id, string descripcion, double precio, Categoria categoria)
         {
@@ -21,6 +20,7 @@ namespace Ventas.Modelos
             Descripcion = descripcion;
             Precio = precio;
             Categoria = categoria;
+            CategoriaId = categoria.Id;
         }
     }
 }
