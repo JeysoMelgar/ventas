@@ -7,3 +7,5 @@ c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\bin\Debug\Vent
 c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.exe
 c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.pdb
 c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.Menu.resources
+C:\Users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.Form2.resources

@@ -11,22 +11,21 @@ using Ventas.BL;
 
 namespace Ventas
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        public Form2()
         {
             InitializeComponent();
 
            
-            
         }
-        
-        public void cargarDatos(ProductoBL productosBL, CategoriaBL categoriasBL)
+        public void cargarDatos(ClientesBL clientesBL, CiudadBL ciudadBL)
         {
-           
-            listadeProductosBindingSource.DataSource = productosBL.ListadeProductos;
-            listadeCategoriasBindingSource.DataSource = categoriasBL.ListadeCategorias;
+            
+            listadeClientesBindingSource.DataSource = clientesBL.ListadeClientes;
 
+            
+            listadeCiudadesBindingSource.DataSource = ciudadBL.ListadeCiudades;
         }
     }
 }
