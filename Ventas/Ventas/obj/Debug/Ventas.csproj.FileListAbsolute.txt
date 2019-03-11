@@ -9,3 +9,15 @@ c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Vent
 c:\users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.csprojResolveAssemblyReference.cache
 C:\Users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.Menu.resources
 C:\Users\user\documents\visual studio 2015\Projects\Ventas\Ventas\obj\Debug\Ventas.Form2.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\bin\Debug\Ventas.exe.config
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.exe
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.pdb
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\bin\Debug\Ventas.exe
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\bin\Debug\Ventas.pdb
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Form1.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Form2.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Menu.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Properties.Resources.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Form3.resources

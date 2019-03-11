@@ -32,6 +32,7 @@
             this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.productosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -39,9 +40,8 @@
             this.reportesDeProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesDeVentaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.totalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.porProductosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.totalesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,6 +81,13 @@
             this.clientesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            // 
+            // facturaToolStripMenuItem
+            // 
+            this.facturaToolStripMenuItem.Name = "facturaToolStripMenuItem";
+            this.facturaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.facturaToolStripMenuItem.Text = "Factura";
+            this.facturaToolStripMenuItem.Click += new System.EventHandler(this.facturaToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -128,26 +135,20 @@
             // porClienteToolStripMenuItem
             // 
             this.porClienteToolStripMenuItem.Name = "porClienteToolStripMenuItem";
-            this.porClienteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.porClienteToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.porClienteToolStripMenuItem.Text = "Por Cliente";
-            // 
-            // totalesToolStripMenuItem
-            // 
-            this.totalesToolStripMenuItem.Name = "totalesToolStripMenuItem";
-            this.totalesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.totalesToolStripMenuItem.Text = "Totales";
             // 
             // porProductosToolStripMenuItem
             // 
             this.porProductosToolStripMenuItem.Name = "porProductosToolStripMenuItem";
-            this.porProductosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.porProductosToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
             this.porProductosToolStripMenuItem.Text = "Por Producto";
             // 
-            // facturaToolStripMenuItem
+            // totalesToolStripMenuItem
             // 
-            this.facturaToolStripMenuItem.Name = "facturaToolStripMenuItem";
-            this.facturaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.facturaToolStripMenuItem.Text = "Factura";
+            this.totalesToolStripMenuItem.Name = "totalesToolStripMenuItem";
+            this.totalesToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.totalesToolStripMenuItem.Text = "Totales";
             // 
             // Menu
             // 
