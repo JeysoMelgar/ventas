@@ -34,12 +34,17 @@ namespace Ventas.BL
             var categoria2 = new Categoria(2, "Accesorios");
 
             var producto1 = new Producto(1, "Laptop Dell", 15000, categoria1);
-            var producto2 = new Producto(2, "Laptop Asus", 15000, categoria1);
-            var producto3 = new Producto(3, "Mouse Logitech", 15000, categoria2);
+            var producto2 = new Producto(2, "Laptop Asus", 27000, categoria1);
+            var producto3 = new Producto(3, "Mouse Logitech", 32000, categoria2);
 
             ListadeProductos.Add(producto1);
             ListadeProductos.Add(producto2);
             ListadeProductos.Add(producto3);
+        }
+
+        internal object ObtenerCosto(int productoId)
+        {
+            throw new NotImplementedException();
         }
     }
 }
