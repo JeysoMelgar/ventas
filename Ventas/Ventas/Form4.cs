@@ -25,5 +25,10 @@ namespace Ventas
             listadeProveedorBindingSource.DataSource = proveedorBL.ListadeProveedor;
             listadeCiudadesBindingSource.DataSource = ciudadesBL.ListadeCiudades;
         }
+
+        private void listadeCiudadesBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

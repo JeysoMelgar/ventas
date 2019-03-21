@@ -17,11 +17,11 @@ namespace Ventas
         {
             InitializeComponent();
         }
-        public void cargarDatos(ComprasBL comprasBL, ProveedoresBL proveedorBL,ProductoBL productosBL)
+        public void cargarDatos(ComprasBL comprasBL, ProveedoresBL proveedorBL, CostoBL costoBL)
         {
             listadeComprasBindingSource.DataSource = comprasBL.ListadeCompras;
-            listadeProveedorBindingSource.DataSource = proveedorBL.ListadeProveedor; 
-            listadeProductosBindingSource.DataSource = productosBL.ListadeProductos;
+            listadeProveedorBindingSource.DataSource = proveedorBL.ListadeProveedor;
+            listadeCostosBindingSource.DataSource = costoBL.ListadeCostos;
         }
     }
 }

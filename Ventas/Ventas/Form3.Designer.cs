@@ -122,7 +122,7 @@
             // impuestoLabel
             // 
             impuestoLabel.AutoSize = true;
-            impuestoLabel.Location = new System.Drawing.Point(498, 469);
+            impuestoLabel.Location = new System.Drawing.Point(395, 462);
             impuestoLabel.Name = "impuestoLabel";
             impuestoLabel.Size = new System.Drawing.Size(53, 13);
             impuestoLabel.TabIndex = 9;
@@ -131,7 +131,7 @@
             // subtotalLabel
             // 
             subtotalLabel.AutoSize = true;
-            subtotalLabel.Location = new System.Drawing.Point(498, 441);
+            subtotalLabel.Location = new System.Drawing.Point(395, 434);
             subtotalLabel.Name = "subtotalLabel";
             subtotalLabel.Size = new System.Drawing.Size(49, 13);
             subtotalLabel.TabIndex = 11;
@@ -140,7 +140,7 @@
             // totalLabel
             // 
             totalLabel.AutoSize = true;
-            totalLabel.Location = new System.Drawing.Point(498, 495);
+            totalLabel.Location = new System.Drawing.Point(395, 488);
             totalLabel.Name = "totalLabel";
             totalLabel.Size = new System.Drawing.Size(34, 13);
             totalLabel.TabIndex = 13;
@@ -176,7 +176,7 @@
             this.listadeFacturasBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.listadeFacturasBindingNavigator.Name = "listadeFacturasBindingNavigator";
             this.listadeFacturasBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.listadeFacturasBindingNavigator.Size = new System.Drawing.Size(797, 25);
+            this.listadeFacturasBindingNavigator.Size = new System.Drawing.Size(680, 25);
             this.listadeFacturasBindingNavigator.TabIndex = 0;
             this.listadeFacturasBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -303,7 +303,7 @@
             // impuestoTextBox
             // 
             this.impuestoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listadeFacturasBindingSource, "Impuesto", true));
-            this.impuestoTextBox.Location = new System.Drawing.Point(558, 466);
+            this.impuestoTextBox.Location = new System.Drawing.Point(455, 459);
             this.impuestoTextBox.Name = "impuestoTextBox";
             this.impuestoTextBox.Size = new System.Drawing.Size(200, 20);
             this.impuestoTextBox.TabIndex = 10;
@@ -311,7 +311,7 @@
             // subtotalTextBox
             // 
             this.subtotalTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listadeFacturasBindingSource, "Subtotal", true));
-            this.subtotalTextBox.Location = new System.Drawing.Point(558, 438);
+            this.subtotalTextBox.Location = new System.Drawing.Point(455, 431);
             this.subtotalTextBox.Name = "subtotalTextBox";
             this.subtotalTextBox.Size = new System.Drawing.Size(200, 20);
             this.subtotalTextBox.TabIndex = 12;
@@ -319,7 +319,7 @@
             // totalTextBox
             // 
             this.totalTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.listadeFacturasBindingSource, "Total", true));
-            this.totalTextBox.Location = new System.Drawing.Point(558, 492);
+            this.totalTextBox.Location = new System.Drawing.Point(455, 485);
             this.totalTextBox.Name = "totalTextBox";
             this.totalTextBox.Size = new System.Drawing.Size(200, 20);
             this.totalTextBox.TabIndex = 14;
@@ -405,7 +405,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(797, 545);
+            this.ClientSize = new System.Drawing.Size(680, 545);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.facturaDetalleDataGridView);
             this.Controls.Add(activoLabel);
@@ -424,6 +424,7 @@
             this.Controls.Add(this.listadeFacturasBindingNavigator);
             this.Name = "Form3";
             this.Text = "Factura";
+            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.listadeFacturasBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listadeFacturasBindingNavigator)).EndInit();
             this.listadeFacturasBindingNavigator.ResumeLayout(false);

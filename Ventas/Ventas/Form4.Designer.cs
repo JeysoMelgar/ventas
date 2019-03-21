@@ -283,6 +283,7 @@
             // listadeCiudadesBindingSource
             // 
             this.listadeCiudadesBindingSource.DataSource = typeof(Ventas.Modelos.Ciudad);
+            this.listadeCiudadesBindingSource.CurrentChanged += new System.EventHandler(this.listadeCiudadesBindingSource_CurrentChanged);
             // 
             // label1
             // 
@@ -363,7 +364,7 @@
             this.Controls.Add(this.telefonoTextBox);
             this.Controls.Add(this.listadeProveedorBindingNavigator);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Proveedores";
             ((System.ComponentModel.ISupportInitialize)(this.listadeProveedorBindingNavigator)).EndInit();
             this.listadeProveedorBindingNavigator.ResumeLayout(false);
             this.listadeProveedorBindingNavigator.PerformLayout();

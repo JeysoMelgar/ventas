@@ -49,6 +49,7 @@
     <Compile Include="BL\CategoriaBL.cs" />
     <Compile Include="BL\CiudadBL.cs" />
     <Compile Include="BL\ComprasBL.cs" />
+    <Compile Include="BL\CostoBL.cs" />
     <Compile Include="BL\ProveedoresBL.cs" />
     <Compile Include="BL\ClientesBL.cs" />
     <Compile Include="BL\FacturaBL.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Modelos\Ciudad.cs" />
     <Compile Include="Modelos\Cliente.cs" />
     <Compile Include="Modelos\Compras.cs" />
+    <Compile Include="Modelos\Costo.cs" />
     <Compile Include="Modelos\Factura.cs" />
     <Compile Include="Modelos\Producto.cs" />
     <Compile Include="Modelos\Proveedor.cs" />
@@ -130,6 +132,7 @@
     <None Include="Properties\DataSources\Ventas.BL.CiudadBL.datasource" />
     <None Include="Properties\DataSources\Ventas.BL.ClientesBL.datasource" />
     <None Include="Properties\DataSources\Ventas.BL.ComprasBL.datasource" />
+    <None Include="Properties\DataSources\Ventas.BL.CostoBL.datasource" />
     <None Include="Properties\DataSources\Ventas.BL.FacturaBL.datasource" />
     <None Include="Properties\DataSources\Ventas.BL.ProductoBL.datasource" />
     <None Include="Properties\DataSources\Ventas.BL.ProveedoresBL.datasource" />

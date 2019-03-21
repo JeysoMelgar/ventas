@@ -19,12 +19,13 @@ namespace Ventas
         {
             InitializeComponent();
         }
-        public void cargarDatos(FacturaBL facturaBL, ClientesBL clientesBL, ProductoBL productoBL)
+        public void cargarDatos(FacturaBL facturaBL, ClientesBL clientesBL,ProductoBL productoBL)
         {
            
             listadeFacturasBindingSource.DataSource = facturaBL.ListadeFacturas;
             listadeClientesBindingSource.DataSource = clientesBL.ListadeClientes;
             listadeProductosBindingSource.DataSource = productoBL.ListadeProductos;
+            
         }   
 
         private void facturaDetalleDataGridView_CellEndEdit(object sender, DataGridViewCellEventArgs e)
@@ -33,6 +34,11 @@ namespace Ventas
             factura.CalcularTotalFactura();
 
             listadeFacturasBindingSource.ResetBindings(false);
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
         }
     }
     

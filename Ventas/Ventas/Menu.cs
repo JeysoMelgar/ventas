@@ -20,6 +20,7 @@ namespace Ventas
         FacturaBL _facturaBL;
         ProveedoresBL _proveedorBL;
         ComprasBL _comprasBL;
+        CostoBL _costosBL;
         public Menu()
         {
             InitializeComponent();
@@ -30,6 +31,7 @@ namespace Ventas
             _facturaBL = new FacturaBL();
             _proveedorBL = new ProveedoresBL();
             _comprasBL = new ComprasBL();
+            _costosBL = new CostoBL();
         }
 
         private void productosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -68,7 +70,7 @@ namespace Ventas
         {
             var formCompras = new Form5();
             formCompras.MdiParent = this;
-            formCompras.cargarDatos(_comprasBL,_proveedorBL,_productosBL);
+            formCompras.cargarDatos(_comprasBL,_proveedorBL,_costosBL);
             formCompras.Show();
         }
     }

@@ -29,12 +29,12 @@ namespace Ventas.Modelos
 
         public void CalcularTotalCompras()
         {
-            var productoBL = new ProductoBL();
+            var costoBL = new CostoBL();
             double subtotal = 0;
             foreach (var detalle in ComprasDetalle)
             {
-                var costo = productoBL.ObtenerCosto(detalle.ProductoId);
-                subtotal = subtotal + detalle.CalcularTotalDetalle(costo);
+                var precio = costoBL.ObtenerPrecio(detalle.PrecioId);
+                subtotal = subtotal + detalle.CalcularTotalDetalle(precio);
             }
             Subtotal = subtotal;
             Impuesto = Subtotal * 0.15;
@@ -43,21 +43,25 @@ namespace Ventas.Modelos
     }
     public class ComprasDetalle
     {
+
         public int Id { get; set; }
-        public int ProductoId { get; set; }
-        public Producto Producto { get; set; }
+        public int CostoId { get; set; }
+        public Costo Costo { get; set; }
         public int Cantidad { get; set; }
-        public double Costo { get; set; }
+        public double Precio { get; set; }
         public double Total { get; set; }
+        public object PrecioId { get; internal set; }
+        public double precio { get; private set; }
+
         public ComprasDetalle()
         {
             Cantidad = 1;
-            ProductoId = 1;
+            CostoId = 1;
         }
         public double CalcularTotalDetalle(double costo)
         {
-            Costo = costo;
-            Total = Cantidad * Costo;
+            Precio = precio;
+            Total = Cantidad * Precio;
             return Total;
         }
 
