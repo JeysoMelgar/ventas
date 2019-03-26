@@ -21,6 +21,7 @@ namespace Ventas
         ProveedoresBL _proveedorBL;
         ComprasBL _comprasBL;
         CostoBL _costosBL;
+        UsuarioBL _usuariosBL;
         public Menu()
         {
             InitializeComponent();
@@ -32,6 +33,7 @@ namespace Ventas
             _proveedorBL = new ProveedoresBL();
             _comprasBL = new ComprasBL();
             _costosBL = new CostoBL();
+            _usuariosBL = new BL.UsuarioBL();
         }
 
         private void productosToolStripMenuItem_Click(object sender, EventArgs e)
@@ -72,6 +74,20 @@ namespace Ventas
             formCompras.MdiParent = this;
             formCompras.cargarDatos(_comprasBL,_proveedorBL,_costosBL);
             formCompras.Show();
+        }
+
+        private void Menu_Load(object sender, EventArgs e)
+        {
+            var login = new Login();
+            login.CargarDatos(_usuariosBL);
+            login.ShowDialog();
+            productosToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerProductos;
+            facturaToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerFacturas;
+            clientesToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerClientes;
+
+            proveedoresToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerProveedores;
+            comprasToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedesVerCompras;
+            reportesToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerReportes;
         }
     }
 }

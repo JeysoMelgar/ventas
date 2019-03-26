@@ -23,3 +23,4 @@ C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\
 C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Form3.resources
 C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Form4.resources
 C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Form5.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.Login.resources
