@@ -305,7 +305,7 @@
             this.dataGridViewTextBoxColumn5,
             this.dataGridViewTextBoxColumn6});
             this.listadeProveedorDataGridView.DataSource = this.listadeProveedorBindingSource;
-            this.listadeProveedorDataGridView.Location = new System.Drawing.Point(43, 238);
+            this.listadeProveedorDataGridView.Location = new System.Drawing.Point(43, 209);
             this.listadeProveedorDataGridView.Name = "listadeProveedorDataGridView";
             this.listadeProveedorDataGridView.Size = new System.Drawing.Size(552, 220);
             this.listadeProveedorDataGridView.TabIndex = 12;
@@ -350,7 +350,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(628, 506);
+            this.ClientSize = new System.Drawing.Size(628, 461);
             this.Controls.Add(this.listadeProveedorDataGridView);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);

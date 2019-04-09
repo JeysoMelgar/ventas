@@ -21,7 +21,7 @@ namespace Ventas
         }
         public void cargarDatos(FacturaBL facturaBL, ClientesBL clientesBL,ProductoBL productoBL)
         {
-           
+            _facturaBL = facturaBL;
             listadeFacturasBindingSource.DataSource = facturaBL.ListadeFacturas;
             listadeClientesBindingSource.DataSource = clientesBL.ListadeClientes;
             listadeProductosBindingSource.DataSource = productoBL.ListadeProductos;

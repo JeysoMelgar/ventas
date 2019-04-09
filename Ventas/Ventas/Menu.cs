@@ -89,5 +89,21 @@ namespace Ventas
             comprasToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedesVerCompras;
             reportesToolStripMenuItem.Visible = login.UsuarioAutenticado.PuedeVerReportes;
         }
+
+        private void reportesDeProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {   
+            var formReportesProductos = new FormReporteProductos();
+            formReportesProductos.CargarDatos(_productosBL);
+            formReportesProductos.MdiParent = this;
+            formReportesProductos.Show();    
+        }
+
+        private void totalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReportesVentas = new FormReportedeVentas();
+            formReportesVentas.CargarDatos(_facturaBL, _clientesBL);
+            formReportesVentas.MdiParent = this;
+            formReportesVentas.Show();
+        }
     }
 }

@@ -121,7 +121,7 @@
             this.listadeClientesBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.listadeClientesBindingNavigator.Name = "listadeClientesBindingNavigator";
             this.listadeClientesBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.listadeClientesBindingNavigator.Size = new System.Drawing.Size(728, 25);
+            this.listadeClientesBindingNavigator.Size = new System.Drawing.Size(578, 25);
             this.listadeClientesBindingNavigator.TabIndex = 0;
             this.listadeClientesBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -282,7 +282,7 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
             this.listadeClientesDataGridView.DataSource = this.listadeClientesBindingSource;
-            this.listadeClientesDataGridView.Location = new System.Drawing.Point(173, 265);
+            this.listadeClientesDataGridView.Location = new System.Drawing.Point(23, 217);
             this.listadeClientesDataGridView.Name = "listadeClientesDataGridView";
             this.listadeClientesDataGridView.Size = new System.Drawing.Size(530, 220);
             this.listadeClientesDataGridView.TabIndex = 10;
@@ -320,7 +320,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 520);
+            this.ClientSize = new System.Drawing.Size(578, 471);
             this.Controls.Add(this.listadeClientesDataGridView);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
