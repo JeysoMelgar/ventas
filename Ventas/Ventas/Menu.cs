@@ -105,5 +105,29 @@ namespace Ventas
             formReportesVentas.MdiParent = this;
             formReportesVentas.Show();
         }
+
+        private void reportesDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReportesClientes = new FormReportedeClientes();
+            formReportesClientes.CargarDatos(_clientesBL);
+            formReportesClientes.MdiParent = this;
+            formReportesClientes.Show();
+        }
+
+        private void reportesDeComprasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReportesCompras = new FormReportedeCompras();
+            formReportesCompras.CargarDatos(_comprasBL);
+            formReportesCompras.MdiParent = this;
+            formReportesCompras.Show();
+        }
+
+        private void reportesDeProveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formReportesProveedores = new FormReportedeProveedores();
+            formReportesProveedores.CargarDatos(_proveedorBL);
+            formReportesProveedores.MdiParent = this;
+            formReportesProveedores.Show();
+        }
     }
 }

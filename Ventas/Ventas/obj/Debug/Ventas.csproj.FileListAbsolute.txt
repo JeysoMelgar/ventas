@@ -45,3 +45,6 @@ C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\
 C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\bin\Debug\stdole.dll
 C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.FormReporteProductos.resources
 C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.FormReportedeVentas.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.FormReportedeClientes.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.FormReportedeCompras.resources
+C:\Users\user\Desktop\factura en visual basic\Proyectos de visual studio\Ventas\Ventas\obj\Debug\Ventas.FormReportedeProveedores.resources
